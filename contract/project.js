@@ -1,5 +1,7 @@
 module.exports = {
   addProject: async function(name, description) {
+      app.validate('string', name, { length: { minimum: 1, maximum: 256 }})
+      app.validate('string', description, { length: { minimum: 1, maximum: 1024 }})
       app.sdb.create('Project', {
       name: name,
       description: description, 	
@@ -9,8 +11,5 @@ module.exports = {
       authorId: this.trs.senderId,
       timestamp: this.trs.timestamp
       })
-  },
-  getProjects: async function() {
-  	return app.model.Project.findAll();
-  }	
+  }
 }
