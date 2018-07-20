@@ -3,11 +3,11 @@ module.exports = {
   alias: 'p',
   fields: [
      {
-	"name": "id",
-	"type": "BigInt",
-	"not_null": true,
-	"unique": true,
-	"primary_key": true
+      name: 'id',
+      type: 'BigInt',
+      not_null: true,
+      unique: true,
+      primary_key: true
     },   
     {
       name: 'transactionId',
