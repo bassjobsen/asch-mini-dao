@@ -11,12 +11,12 @@ git clone https://github.com/aschplatform/asch.git asch && cd asch && npm instal
 
 ## Install the source code
 ```
-git clone https://github.com/bassjobsen/asch-test-dapp.git
+git clone https://github.com/bassjobsen/asch-mini-dao.git
 ```
-After that navigate to the new `asch-test-dapp` folder and follow the instruction at [Dapp Development Tutorial 1: Asch Dapp Hello World](https://github.com/AschPlatform/asch/blob/master/docs/dapp_docs/1_hello_en.md). Or simply run [asch-redeploy](https://github.com/AschPlatform/asch-redeploy):
+After that navigate to the new `asch-mini-dao` folder and follow the instruction at [Dapp Development Tutorial 1: Asch Dapp Hello World](https://github.com/AschPlatform/asch/blob/master/docs/dapp_docs/1_hello_en.md). Or simply run [asch-redeploy](https://github.com/AschPlatform/asch-redeploy):
 
 ```
 > sudo npm -g install asch-redeploy
-> cd asch-test-dapp
+> cd asch-mini-dao
 > asch-redeploy
 ```
